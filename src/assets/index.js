@@ -17,6 +17,7 @@ import mysql from './tech/mysql.png';
 import express from './tech/express.png';
 import aws from './tech/aws.png';
 import mui from './tech/mui.png'
+import wipro from './wipro.png';
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
@@ -47,6 +48,7 @@ export {
   express,
   aws,
   mui,
+  wipro,
   firstTestimonial,
   secondTestimonial,
   thirdTestimonial,

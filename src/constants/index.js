@@ -2,6 +2,7 @@
 import {
   logo,
   backend,
+  wipro,
   creator,
   mobile,
   web,
@@ -167,9 +168,9 @@ const experiences = [
     ],
   },
   {
-    title: "Power Platform Developer",
+    title: "Developer",
     company_name: "Wipro Limited",
-    icon: backend,
+    icon: wipro,
     iconBg: "#FFFFFF",
     date: "Feb 2026 - Present",
     points: [
@@ -209,56 +210,50 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Tekisky Mart",
+    name: "College Enquiry AI Assistant",
     description:
-      "Tekisky Mart is a web-based platform that allows users to search, explore, and purchase a wide range of products from various providers, offering a seamless and efficient shopping experience.",
+      "A conversational AI assistant designed to help college students with their enquiry needs, providing instant responses and personalized recommendations.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: 
+        "mysql",
+        color: "white-text-gradient",
+      },
+      
+ 
+    ],
+    image: project2,
+    source_code_link: "https://github.com/TuhinB10/college-enquiry-ai-assistant",
+  },
+  {
+    name: "Hotel Booking Website",
+    description:
+      "A hotel booking website design that allows users to search for hotels, view details, and make reservations online. The website features a user-friendly interface and secure payment options.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "white-text-gradient",
-      },
-      {
-        name: "node",
-        color: "pink-text-gradient",
       },
       {
         name: "mongodb",
         color: "green-text-gradient",
       },
- 
-    ],
-    image: project2,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "GearXpert",
-    description:
-      "GearXpert is your ultimate destination for premium auto parts and accessories, Whether you're an automobile enthusiast or a professional, find everything you need to upgrade, repair.",
-    tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "emailJs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Gsap",
-        color: "pink-text-gradient",
+        name: "express",
+        color: "white-text-gradient",
       },
     ],
     image: gearXpert,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/TuhinB10/welcomeback-MERN",
   },
   {
-    name: "GoGroove-Ecommerce",
+    name: "Khata App",
     description:
-      "Go-Groove is your ultimate destination for premium products across various categories. Whether you're a savvy shopper or a professional, enhance, and simplify your lifestyle—all in one place!",
+      "KhataApp is a Vite + React application that enables store owners to manage customer dues in real time and send WhatsApp notifications for outstanding balances.",
     tags: [
       {
         name: "react",
@@ -278,7 +273,7 @@ const projects = [
       },
     ],
     image: project3,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/TuhinB10/KhataApp",
   },
 ];
 
