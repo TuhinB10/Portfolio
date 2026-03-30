@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
+import { FaWhatsapp } from "react-icons/fa";
 
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
@@ -64,6 +65,17 @@ const Contact = () => {
       );
   };
 
+  const handleWhatsApp = () => {
+    const phoneNumber = "+919832517360"; // replace with your WhatsApp number
+    const text = `Hello Tuhin, I would like to connect via your portfolio contact form.%0A%0AName: ${encodeURIComponent(
+      form.name || ""
+    )}%0AEmail: ${encodeURIComponent(form.email || "")}%0AMessage: ${encodeURIComponent(
+      form.message || ""
+    )}`;
+
+    window.open(`https://wa.me/${phoneNumber.replace(/\D/g, "")}?text=${text}`, "_blank");
+  };
+
   return (
     <div
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
@@ -114,12 +126,22 @@ const Contact = () => {
             />
           </label>
 
-          <button
-            type='submit'
-            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
-          >
-            {loading ? "Sending..." : "Send"}
-          </button>
+          <div className='flex flex-col sm:flex-row gap-4'>
+            <button
+              type='submit'
+              className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+            >
+              {loading ? "Sending Email..." : "Send Email"}
+            </button>
+            <button
+              type='button'
+              onClick={handleWhatsApp}
+              className='bg-green-500 hover:bg-green-600 transition-colors p-3 rounded-full outline-none w-fit text-white font-bold shadow-md shadow-green-500/50 flex items-center justify-center'
+              aria-label='Send WhatsApp message'
+            >
+              <FaWhatsapp size={24} />
+            </button>
+          </div>
         </form>
       </motion.div>
 
