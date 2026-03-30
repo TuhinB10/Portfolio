@@ -67,7 +67,7 @@ const Contact = () => {
 
   const handleWhatsApp = () => {
     const phoneNumber = "+919832517360"; // replace with your WhatsApp number
-    const text = `Hello Tuhin, I would like to connect via your portfolio contact form.%0A%0AName: ${encodeURIComponent(
+    const text = `Hello Tuhin, I would like to connect with you.%0A%0AName: ${encodeURIComponent(
       form.name || ""
     )}%0AEmail: ${encodeURIComponent(form.email || "")}%0AMessage: ${encodeURIComponent(
       form.message || ""
