@@ -154,6 +154,20 @@ const technologies = [
 ];
 
 const experiences = [
+
+  {
+    title: "Developer",
+    company_name: "Wipro Limited",
+    icon: wipro,
+    iconBg: "#FFFFFF",
+    date: "Feb 2026 - Present",
+    points: [
+      "Provided first-level IT support across enterprise systems, resolving hardware, software, and network issues while maintaining SLA compliance and ensuring minimal downtime for end users.",
+      "Managed user accounts and access controls using Active Directory and related tools, handling onboarding/offboarding workflows, permission assignments, and security policy enforcement across the organization.",
+      "Monitored and maintained system health by tracking performance metrics, escalating critical incidents to L2/L3 teams, and documenting resolutions in ticketing systems such as ServiceNow or Remedy to build a robust knowledge base.",
+    ],
+  },
+
   {
     title: "Full-Stack Developer",
     company_name: "Freelance",
@@ -167,18 +181,7 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "Developer",
-    company_name: "Wipro Limited",
-    icon: wipro,
-    iconBg: "#FFFFFF",
-    date: "Feb 2026 - Present",
-    points: [
-      "Provided first-level IT support across enterprise systems, resolving hardware, software, and network issues while maintaining SLA compliance and ensuring minimal downtime for end users.",
-      "Managed user accounts and access controls using Active Directory and related tools, handling onboarding/offboarding workflows, permission assignments, and security policy enforcement across the organization.",
-      "Monitored and maintained system health by tracking performance metrics, escalating critical incidents to L2/L3 teams, and documenting resolutions in ticketing systems such as ServiceNow or Remedy to build a robust knowledge base.",
-    ],
-  },
+  
 ];
 
 const testimonials = [
