@@ -211,6 +211,8 @@ const testimonials = [
   },
 ];
 
+const resumeLink = "https://drive.google.com/file/d/1mTksYdv9boMJU0lDsVnJZa8BSF7oCd5h/view?usp=sharing";
+
 const projects = [
   {
     name: "College Enquiry AI Assistant",
@@ -280,4 +282,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, resumeLink };
